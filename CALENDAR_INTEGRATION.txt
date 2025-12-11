@@ -1,0 +1,25 @@
+// INSTRUCTIONS POUR FINALISER L'INTÉGRATION DU CALENDRIER
+
+/*
+Pour finaliser l'intégration du calendrier dans l'application, ajoutez ces 2 imports
+au début du fichier lib/features/home/presentation/pages/home_page.dart:
+
+AJOUTER APRÈS LA LIGNE 10:
+*/
+
+import '../../../calendar/presentation/pages/calendar_page.dart';
+import '../../../../core/themes/app_theme.dart';
+
+/*
+Le bouton CALENDRIER a déjà été ajouté à la grille de navigation (ligne 126-135).
+Une fois les imports ajoutés, l'application compilera correctement.
+
+ALTERNATIVE: Si vous préférez, vous pouvez accéder directement au calendrier en naviguant vers:
+CalendarPage()
+
+Exemple:
+Navigator.push(
+  context,
+  MaterialPageRoute(builder: (_) => const CalendarPage()),
+);
+*/
